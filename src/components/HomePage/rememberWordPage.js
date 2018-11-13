@@ -24,7 +24,6 @@ export default class RememberWordPage extends Component {
         };
         this.wordsData = [];
         this.currentIndex = 0;
-        this.stomatologyWordsData = [];
     }
 
     componentDidMount = () => {

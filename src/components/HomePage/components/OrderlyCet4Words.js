@@ -19,7 +19,7 @@ export default class OrderlyCet4Words extends Component {
             data: [],
             animating: false,
             nomore: false,
-        }
+        };
         this.currentPage = 1;
     }
 

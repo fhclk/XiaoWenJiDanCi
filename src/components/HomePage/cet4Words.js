@@ -10,10 +10,6 @@ import ClassifyCet4Words from './components/ClassifyCet4Words.js';
 export default class CET4WordsPage extends Component {
     static navigationOptions = ({navigation}) => {
         return {
-            // headerRight: <NavItem
-            //     source={{uri: 'nav_random'}}
-            //     onPress={navigation.state.params && navigation.state.params._onPress}
-            // />,
             headerTitle: '四级词汇',
         }
     }

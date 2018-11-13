@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import {
-  View, 
-  Text, 
-  TouchableOpacity, 
-  StyleSheet, SafeAreaView, TextInput, FlatList, Image,NativeModules
-} from 'react-native';
+import {View, Text, TouchableOpacity, StyleSheet, SafeAreaView, TextInput, FlatList, Image,NativeModules} from 'react-native';
 import {scaleSize, screenW} from "../../configs/ScreenUtil";
 import {appColors} from "../../configs/AppConfig";
 
 const  numColumns = 4;
-
 
 export default class HomePage extends Component {
 	static navigationOptions = ({navigation}) => ({
@@ -22,9 +16,6 @@ export default class HomePage extends Component {
         {key: 'mine_icon_activity', title: '听写'},
         {key: 'mine_icon_hot', title: '记单词'},
         {key: 'mine_icon_preview', title: '口腔学'},
-        // {key: 'mine_icon_nearby', title: '附近'},
-        // {key: 'mine_icon_feedback', title: '意见反馈'},
-        // {key: 'mine_icon_more', title: '更多'},
 	];
 
     constructor(props) {
@@ -35,16 +26,10 @@ export default class HomePage extends Component {
 				'history',
 				'random',
 				'more',
-				'key',
-				'publish',
 			],
 			searchWord:'',
 		}
 	}
-
-    componentWillMount() {
-
-    }
 
     _renderItem = ({item}) => {
         return (
@@ -175,7 +160,6 @@ const styles = StyleSheet.create({
     hLine: {
     	height: 1,
 		width: screenW,
-		// backgroundColor: '#aeaeae'
 	},
     historyView: {
     	paddingLeft: 13,

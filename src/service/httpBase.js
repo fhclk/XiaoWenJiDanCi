@@ -22,9 +22,6 @@ export function get(url,params=""){
       headers: header,
     })
         .then((response)=>{
-            // if(response.success){
-            //   return response.json()
-            // }
             return response.json()
         })
         .then((resJson)=>{
@@ -54,10 +51,6 @@ export function post(url,params=""){
       body:params?JSON.stringify(params):""
     })
       .then((response)=>{
-
-        // if(response.success){
-        //   return response.json()
-        // }
           return response.json()
       })
       .then((resJson)=>{

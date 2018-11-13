@@ -4,7 +4,6 @@ import {getStomatologyWords} from "../../service/wordsService/words";
 import {screenW} from "../../configs/ScreenUtil";
 
 
-
 export default class StomatologyWordsPage extends Component {
     static navigationOptions = ({navigation}) => {
         return {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, SafeAreaView, NativeModules, View, Text, TouchableOpacity, TextInput, Image } from 'react-native';
+import { StyleSheet, NativeModules, View, Text, TouchableOpacity, TextInput, Image } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import {getCet4WordsClassy, getNewWords, getStomatologyWords} from "../../service/wordsService/words";
 import {screenW} from "../../configs/ScreenUtil";

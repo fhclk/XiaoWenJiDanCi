@@ -17,7 +17,7 @@ export default class ClassifyCet4Words extends Component {
         this.state = {
             refreshing: false,
             data: [],
-        }
+        };
         this.selectedChar = 'A';
         this.classifyChars = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
     }

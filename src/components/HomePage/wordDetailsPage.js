@@ -6,7 +6,7 @@ import {
     StyleSheet, ScrollView, Image, NativeModules
 } from 'react-native';
 import API from '../../configs/API';
-import {appColors, wordLevel} from "../../configs/AppConfig";
+import {appColors} from "../../configs/AppConfig";
 
 import AddNewWordView from '../Base/AddNewWordView';
 import {addNewWord} from "../../service/wordsService/words";

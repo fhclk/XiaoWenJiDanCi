@@ -1,13 +1,5 @@
 import React, { Component } from 'react';
-import {  
-    SafeAreaView,
-    View, 
-    Text, 
-    TouchableOpacity, 
-    StyleSheet, 
-    TextInput,
-    FlatList,
-} from 'react-native';
+import {SafeAreaView, Text, StyleSheet} from 'react-native';
 import NavItem from "../Navigator/NavItem";
 import {toastTool} from "../../utils/toolUtil";
 
@@ -35,7 +27,6 @@ export default class StudyPlan extends Component {
             </SafeAreaView>
         );
     }
-
 
 };
 

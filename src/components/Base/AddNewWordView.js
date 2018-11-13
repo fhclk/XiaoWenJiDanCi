@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import {
-    View,
-    Text,
-    TouchableOpacity,StyleSheet
-} from 'react-native';
+import {View, Text, TouchableOpacity,StyleSheet} from 'react-native';
 import {appColors, wordLevel} from "../../configs/AppConfig";
 
 export default class AddNewWordView extends Component {
@@ -49,7 +45,7 @@ export default class AddNewWordView extends Component {
         item['selected'] = true;
         this.setState({
             selectedLevel: item
-        })
+        });
         this.props.selectedCallback && this.props.selectedCallback(item);
     }
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Image, View, StyleSheet } from 'react-native'
 import FastImage from 'react-native-fast-image'
-import PropTypes from 'prop-types';
 
 export default class PlacehoderImage extends Component {
     constructor() {

@@ -19,7 +19,7 @@ export default class UnorderlyCet4Words extends Component {
             data: [],
             animating: false,
             nomore: false,
-        }
+        };
         this.currentPage = 1;
     }
 
