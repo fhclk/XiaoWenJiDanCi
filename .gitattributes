@@ -1,5 +1,5 @@
 *.pbxproj -text
 
-*.h linguist-language=JavaScript 
-*.m linguist-language=JavaScript 
-*.js linguist-language=JavaScript 
+*.h linguist-language=React Native 
+*.m linguist-language=React Native 
+*.js linguist-language=React Native 
